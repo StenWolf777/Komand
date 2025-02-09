@@ -14,7 +14,7 @@ public class MovieBot extends TelegramLongPollingBot {
     private final String BOT_TOKEN = "7692374091:AAGVFHNw3TA1IX_KPhQH5Y_b830bHu5RLE8";
     private final String CHANNEL_ID = "1002270527397";
 
-    // PostgreSQL ulanish ma'lumotlari
+
     private final String DB_URL = "jdbc:postgresql://localhost:5432/kino";
     private final String DB_USER = "postgres";
     private final String DB_PASSWORD = "20091212";
@@ -76,9 +76,6 @@ public class MovieBot extends TelegramLongPollingBot {
     }
 
     private boolean isUserSubscribed(long userId) {
-        // Majburiy obunani tekshirish uchun Telegram API bilan ishlash yoki
-        // kanal a'zoligini tekshirish API-sidan foydalaning
-        // Placeholder natija qaytarayapman (majburiy obuna faollashtirilishi kerak)
         return true;
     }
 

@@ -10,5 +10,6 @@ public class Main {
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
         telegramBotsApi.registerBot(new MovieBot("7692374091:AAGVFHNw3TA1IX_KPhQH5Y_b830bHu5RLE8"));
         System.out.println("successful");
+
     }
 }
